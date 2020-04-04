@@ -5,15 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#FFF" />
     <meta name="description" content="PiggyVest" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.webp">
+    <link href="style.css" rel="stylesheet" type="text/css"> 
     <title>PiggyVest | Dashboard</title>
 </head>
-<body style="background-color: #ADD8E6">
-    <div>
-        <div>
-            <a>
-                <img src="https://dashboard.piggyvest.com/static/media/piggyvest-logo.0b78a8fa.svg"/>
-            </a>
-        </div>
-    </div>
+<body>
+    <main>
+        <section id="main-section">
+            <div class="container">
+                <div class="logo-div">
+                    <img src="img/piggyvest-logo.0b78a8fa.svg" alt="PiggyVest Logo">
+                </div>
+                <div class="title-div">
+                    <h1>Create a Secure Account</h1>
+                    <h2>Welcome to the future of Savings & Investments</h2>
+                </div>
+                <div class="form-div">
+                    <form action="" id="signup-form">
+                       <div class="form-item">
+                           <label for="name">Full Name</label>
+                           <input type="text" placeholder="Full Name" required>
+                       </div>
+                       <div class="form-item">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="Email Address" required>
+                       </div>
+                       <div class="form-item">
+                            <label for="number">Phone Number</label>
+                            <input type="number" placeholder="Phone Number" required>
+                       </div>
+                       <div class="form-item">
+                            <label for="Password">Password</label>
+                            <input type="Password" placeholder="Password" required>
+                       </div>
+                       <div class="form-item">
+                            <label for="">Referrer Phone or Promo Code (Optional)</label>
+                            <input type="Password" placeholder="Referrer Phone or Promo Code" required>
+                       </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
