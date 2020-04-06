@@ -23,7 +23,7 @@ body {
     font-size: 100%;
 }
 
-.text-gray-700 {
+.color-text {
     color: #4a5568;
     font-weight: 700;
     font-size: 1.2rem;
@@ -124,7 +124,7 @@ select {
 }
 
 
-form-signup button {
+.form-signup button {
     width: 100%;
     text-align: center;
     color: #fff;
@@ -143,69 +143,69 @@ select:focus {
     outline: none;
 }
 
-.floated .item { 
+.design-icon .item { 
     width: 60%;
     height: auto;
 }
 
-.floated .item img {
+.design-icon .item img {
     width: 100%;
     height: auto;
 }
 
-.floated .item:nth-child(1) {
+.design-icon .item:nth-child(1) {
     width: 15%;
     position: fixed;
     left: -1.1rem;
     top: -8rem;
 }
 
-.floated .item:nth-child(2) {
+.design-icon .item:nth-child(2) {
     width: 15%;
     position: fixed;
     right: -11rem;
     top: -0.5rem;
 }
 
-.floated .item:nth-child(3) {
+.design-icon .item:nth-child(3) {
     width: 15%;
     position: fixed;
     left: -6rem;
     bottom: -6rem;
 }
 
-.floated .item:nth-child(4) {
+.design-icon .item:nth-child(4) {
     width: 15%;
     position: fixed;
     right: -7rem;
     bottom: -4rem;
 }
 
-.footer-item {
+.footer-link {
     margin-top: 3.5rem;
 }
 
-.footer-item p {
+.footer-link p {
     text-align: center;
 }
 
-.footer-item p a {
+.footer-link p a {
     color: #fff;
     font-weight: 600;
     font-size: 1.3rem;
     text-decoration: none;
 }
 
-.footer-item p a:hover {
+.footer-link p a:hover {
     color: #777;
 }
 
-.selectdiv {
+.item-div {
     position: relative; 
   }
   
   
-  .selectdiv:after {
+  .item-div:after {
     content: '\f054';
     font-family: FontAwesome;
     font-size: 14px;
