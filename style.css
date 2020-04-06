@@ -86,7 +86,7 @@ body {
     margin-top: 3rem;
 }
 
-form-signup .item {
+.form-signup .item {
     margin-bottom: 3rem;
 }
 
@@ -205,26 +205,26 @@ select:focus {
   }
   
   
-  .item-div:after {
-    content: '\f054';
-    font-family: FontAwesome;
-    font-size: 14px;
-    color: #CECECF;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    right: 19px;
-    /*Adjust for position however you want*/
+.item-div:after {
+   content: '\f054';
+   font-family: FontAwesome;
+   font-size: 14px;
+   color: #CECECF;
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+   right: 19px;
+   /*Adjust for position however you want*/
     
-    top: 45%;
-    padding: 5px 5px;
-    border-bottom: 1px solid #999;
-    /*left line */
+   top: 45%;
+   padding: 5px 5px;
+   border-bottom: 1px solid #999;
+   /*left line */
     
-    position: absolute;
-    pointer-events: none;
-  }
+   position: absolute;
+   pointer-events: none;
+}
 
   @media (max-width: 1078px) {
     #form-id .form-page {
