@@ -6,44 +6,86 @@
     <meta name="theme-color" content="#FFF" />
     <meta name="description" content="PiggyVest" />
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.webp">
+    <script src="https://kit.fontawesome.com/7696dd4075.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css"> 
     <title>PiggyVest | Dashboard</title>
 </head>
 <body>
     <main>
-        <section id="main-section">
-            <div class="container">
-                <div class="logo-div">
-                    <img src="img/piggyvest-logo.0b78a8fa.svg" alt="PiggyVest Logo">
+        <section id="signup-form">
+            <div class="all-items">
+                <div class="home-logo">
+                    <img src="img/piggyvest-logo.0b78a8fa.svg" alt="Brand">
                 </div>
-                <div class="title-div">
-                    <h1>Create a Secure Account</h1>
-                    <h2>Welcome to the future of Savings & Investments</h2>
-                </div>
-                <div class="form-div">
-                    <form action="" id="signup-form">
-                       <div class="form-item">
-                           <label for="name">Full Name</label>
-                           <input type="text" placeholder="Full Name" required>
-                       </div>
-                       <div class="form-item">
-                            <label for="email">Email Address</label>
-                            <input type="email" placeholder="Email Address" required>
-                       </div>
-                       <div class="form-item">
-                            <label for="number">Phone Number</label>
-                            <input type="number" placeholder="Phone Number" required>
-                       </div>
-                       <div class="form-item">
-                            <label for="Password">Password</label>
-                            <input type="Password" placeholder="Password" required>
-                       </div>
-                       <div class="form-item">
-                            <label for="">Referrer Phone or Promo Code (Optional)</label>
-                            <input type="Password" placeholder="Referrer Phone or Promo Code" required>
-                       </div>
-                       
+                <div class="form">
+                    <form action="#" id="reg-form">
+                        <div class="form-titles">
+                            <h1>Create a Secure Account</h1>
+                            <p>Welcome to the future of Savings & Investments</p>
+                        </div>
+                        <div class="form-item-area">
+                            <div class="item">
+                                <label for="name" class="text-gray-700">Full Name</label> <br>
+                                <input type="text" placeholder="Full Name" id="name" required> 
+                            </div>
+                            <div class="item">
+                                <label for="email" class="text-gray-700">Email Address</label> <br>
+                                <input type="email" placeholder="Email Address" id="email" required> 
+                            </div>
+                            <div class="item">
+                                <label for="phone" class="text-gray-700">Phone Number</label> <br>
+                                <input type="text" placeholder="Phone Number" id="number" required> 
+                            </div>
+                            <div class="item">
+                                <label for="password" class="text-gray-700">Password</label> <br>
+                                <input type="text" aria-hidden="true" placeholder="Password" id="password" required> 
+                            </div>
+                            <div class="item">
+                                <label for="referrer" class="text-gray-700">Referrer Phone or Promo Code (Optional)</label> <br>
+                                <input type="text" placeholder="Referrer Phone Or Code" id="referrer"> 
+                            </div>
+                            <div class="item">
+                                <div class="selectdiv">
+                                    <label for="medium" class="text-gray-700">How Did You Hear About Us? (Optional)</label> <br>
+                                    <select id="medium" name="medium" form="reg-form">
+                                        <option value="default" selected>Click To Select</option>
+                                        <option value="fb">Facebook</option>
+                                        <option value="tw">Twitter</option>
+                                        <option value="insta">Instagram</option>
+                                        <option value="ffc">Friend/Family/Coworker Referral</option>
+                                        <option value="gs">Google Search</option>
+                                        <option value="gp">Google Playstore</option>
+                                        <option value="ob">Online Blog</option>
+                                        <option value="ln">Local Newspaper</option>
+                                        <option value="aae">At An Event</option>
+                                        <option value="other">Other</option>
+                                    </select> 
+                                </div>
+                            </div>
+                            <button class="submit-btn" type="submit">Create Account</button>
+                        </div>    
                     </form>
+                </div>
+
+                <div class="floated">
+                    <div class="item">
+                        <img src="img/top-left.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/top-right.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/bottom-left.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="img/bottom-right.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <p>
+                        <a href="#">Already have an account? Log In</a>
+                    </p>
                 </div>
             </div>
         </section>
