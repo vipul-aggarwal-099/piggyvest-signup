@@ -29,19 +29,19 @@ body {
     font-size: 1.2rem;
 }
 
-#signup-form {
+#form-id {
     display: block;
     padding-top: 5rem;
     padding-bottom: 4rem;
     min-height: 100vh;
 }
 
-#signup-form .all-items {
+#form-id .form-page {
     width: 29%;
     margin: 0 auto;
 }
 
-.home-logo {
+.icon-logo {
     max-width: 100%;
     height: auto;
     margin-bottom: 4.5rem;
@@ -49,13 +49,13 @@ body {
     justify-content: center;
 }
 
-.home-logo img {
+.icon-logo img {
     max-width: 100%;
     height: auto;
     display: flex;
 }
 
-#signup-form .form {
+#form-id .form-signup {
     background-color: #fff;
     padding: 4rem 3.5rem;
     border-bottom-right-radius: 1.95rem;
@@ -86,7 +86,7 @@ body {
     margin-top: 3rem;
 }
 
-form .item {
+form-signup .item {
     margin-bottom: 3rem;
 }
 
@@ -124,7 +124,7 @@ select {
 }
 
 
-form button {
+form-signup button {
     width: 100%;
     text-align: center;
     color: #fff;
@@ -227,32 +227,32 @@ select:focus {
   }
 
   @media (max-width: 1078px) {
-    #signup-form .all-items {
+    #form-id .form-page {
         width: 40%;
     }
   }
 
   @media (max-width: 878px) {
-    #signup-form .all-items {
+    #form-id .form-page {
         width: 60%;
     }
   }
   
 
   @media (max-width: 678px) {
-    #signup-form .all-items {
+    #form-id .form-page {
         width: 75%;
     }
   }
 
   @media (max-width: 478px) {
-    #signup-form .all-items {
+    #form-id .form-page {
         width: 85%;
     }
   }
 
   @media (max-width: 378px) {
-    #signup-form .all-items {
+    #form-id .form-page {
         width: 90%;
     }
   }
